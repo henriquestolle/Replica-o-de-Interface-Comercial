@@ -1,2 +1,2 @@
-# Replica-o-de-Interface-Comercial
+# Replicão-de-Interface-Comercial
 Atividade - 08. Replicação de Interface Comercial. Replicação de dois tipos de telas diferêntes.
