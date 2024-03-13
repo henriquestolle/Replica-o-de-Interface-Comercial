@@ -1,0 +1,48 @@
+@import "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+
+    /*  Variaveis Style Atual  */
+    --cor-fundo-section: #D8E9FD;
+    --cor-letra-titulo: #003DA7;
+}
+
+
+
+
+
+
+/*  Style Tela Atual  */
+
+.flex-main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+
+}
+
+.box-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.large-box {
+    width: 70vw;
+    height: 29vh;
+    background-color: var(--cor-fundo-section);
+    margin: 1%;
+}
+
+.small-box {
+    width: 30vw;
+    height: 29vh;
+    background-color: var(--cor-fundo-section);
+    margin: 1%;
+}
