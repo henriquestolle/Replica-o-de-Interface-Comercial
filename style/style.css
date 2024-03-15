@@ -306,3 +306,61 @@
 .text-white {
     color: white;
 }
+
+.container-conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    margin-top: 5%;
+}
+
+.item-container-conteudo {
+    background-color: white;
+    padding: 3%;
+    height: 20vh;
+    border-radius: 10px;
+}
+
+.img-item-container-conteudo {
+    /* Caso Precise mexer nas medidas de tamnho da img */
+}
+
+.txt-obj {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 0.8em;
+}
+
+
+.img-alinha {
+    margin-bottom: 29%;
+}
+
+#img-alinha-1 {
+    margin-bottom: 15%;
+}
+
+
+.box-bolinhas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bolinha-list {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+
+.bolinha-item {
+    font-size: 1em;
+}
+
+.azul {
+    color: #003DA7;
+}
