@@ -100,6 +100,7 @@
     color: var(--cor-letra-clara);
     padding: 3.1%;
     border-radius: 20px;
+    border-style: none;
     text-decoration: none;
     font-size: 1em;
     width: 2vw;
@@ -111,9 +112,10 @@
     color: var(--cor-letra-clara);
     padding: 1%;
     border-radius: 20px;
+    border-style: none;
     text-decoration: none;
     font-size: 1em;
-    width: 1.9vw;
+    width: 1.7vw;
 }
 
 .btn-plus {
@@ -122,8 +124,19 @@
     color: var(--cor-letra-clara);
     padding: 5px;
     border-radius: 50px;
+    width: 1.4vw;
+    border-style: none;
+    font-size: 1em;
+}
+
+.btn-plus-large {
+    margin-left: 3%;
+    background-color: white;
+    color: var(--cor-letra-clara);
+    padding: 5px;
+    border-radius: 50px;
     width: 1.6vw;
-    text-decoration: none;
+    border-style: none;
     font-size: 1em;
 }
 
@@ -154,6 +167,15 @@
     display: flex;
 }
 
+.header-large-box {
+    margin: 2%;
+    display: flex;
+}
+
+.box-text-header-large {
+    width: 49vw;
+}
+
 .box-text-header{
     margin-top: 0.5%;
 }
@@ -165,11 +187,18 @@
 .box-text-header-2 {
     margin-left: 8%;
     margin-top: 0.7%;
+    font-size: 0.8em;
 }
 
 .text-header-2 {
     color: var(--cor-letra-clara);
     font-size: 1.1em;
+}
+
+.text-header-3 {
+    color: var(--cor-letra-clara);
+    font-size: 1.3em;
+    width: 14vw;
 }
 
 .box-small-main {
